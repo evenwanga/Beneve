@@ -32,14 +32,14 @@
  * @Fields ${field} : ${todo}(用一句话描述这个变量表示什么) 
  */
  
-构造函数标签：
+构造函数(Constructor)标签：
 /** 
  * <p>Title: </p> 
  * <p>Description: </p> 
  * ${tags} 
  */
  
-方法(Constructor & Methods)标签：
+方法(Methods)标签：
 /**
  * @Title: ${enclosing_method} 
  * @Description : ${todo} (这里用一句话描述这个方法的作用)
@@ -47,7 +47,7 @@
  * @return ${return_type}    返回类型
  * @throws 
  *
- * @author : WangYiwen
+ * @author : ${user}
  * @mail : 514094893@qq.com
  * @Date : ${date}
  */
