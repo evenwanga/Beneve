@@ -83,5 +83,6 @@
     </pluginRepositories>
     <modules>
     	<module>beneve-web-admin</module>
+    	<module>beneve-web-document</module>
     </modules>
 </project>
