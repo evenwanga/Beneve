@@ -22,11 +22,25 @@
             <organization>Beneve</organization>
             <organizationUrl>Http://www.beneve.cn</organizationUrl>
         </developer>
+        
+        <developer>
+		<id>guobinwu</id>
+		<name>Guobin Wu</name>
+		<email>guobin.wu@hotmail.com</email>
+		<url>http://guobinwu.github.io/</url>
+		<organization>Beneve</organization>
+		<organizationUrl>http://www.beneve.cn</organizationUrl>
+		<roles>
+			<role>ProjectManager</role>
+			<role>Architect</role>
+		</roles>
+		<timezone>+8</timezone>
+	</developer>
     </developers>
     
 	<contributors>
 	   <contributor>
-	       <name>WuGuobin</name>
+	       <name>guobinwu</name>
 	   </contributor>
     </contributors>
     
