@@ -76,9 +76,19 @@
      
 # 三、 设置 Eclipse 编码风格为 Google ： 
 
-### 路径 ： window->preferences->Java->Code Style->Formatter->Import
+### 路径 ： window -> preferences -> Java -> Code Style -> Formatter -> Import
 
 #### 1. 选择 resource/configuration/eclipse-java-google-style.xml 文件
 
 #### 2. 点击 edit 修改 Indentation size 为 4
-    
+
+#### 3. 设置自动格式化代码为 Google 风格
+
+* 路径 ： Window -> Preferences -> Java -> Editor -> Save Actions
+* 勾选 "Perform the selected actions on save" 及下面三个复选框 "Format source code -> Format all lines"、"Organize imports"、"Additional actions"
+* 点击 Configure 按以下方式进行设置：
+![Alt text](../resource/configuration/images/Save Actions Code Organizing.png "Code Organizing")
+![Alt text](../resource/configuration/images/Save Actions Code Style.png "Code Style")
+![Alt text](../resource/configuration/images/Save Actions Member Accesses.png "Member Accesses")
+![Alt text](../resource/configuration/images/Save Actions Miss Code.png "Miss Code")
+![Alt text](../resource/configuration/images/Save Actions Unnecessary Code.png "Unnecessary Code")
