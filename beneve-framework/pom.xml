@@ -19,6 +19,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.3.5.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<dependencyManagement>
 		<dependencies>
@@ -36,6 +37,7 @@
 		<module>beneve-web-admin</module>
 		<module>beneve-web-document</module>
 		<module>beneve-web-cloud-config-server</module>
+		<module>beneve-web-service</module>
 	</modules>
 
 	<properties>

@@ -7,9 +7,10 @@
  */
 package org.beneve.cloud.server;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @ClassName: CloudConfigServerApplication
@@ -18,6 +19,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @date 2016年7月15日 上午11:38:25
  */
 @SpringBootApplication
+@EnableEurekaServer
 @EnableConfigServer
 public class CloudConfigServerApplication {
 
@@ -32,7 +34,7 @@ public class CloudConfigServerApplication {
      * @Date : 2016年7月15日
      */
     public static void main(final String[] args) {
-        SpringApplication.run(CloudConfigServerApplication.class, args);
+        new SpringApplicationBuilder(CloudConfigServerApplication.class).web(true).run(args);
     }
 
 }

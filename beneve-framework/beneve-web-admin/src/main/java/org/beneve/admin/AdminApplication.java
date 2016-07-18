@@ -2,6 +2,8 @@ package org.beneve.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
  *
@@ -12,6 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
+@EnableDiscoveryClient
+@EnableFeignClients
 public class AdminApplication {
 
     /**
@@ -29,5 +33,4 @@ public class AdminApplication {
     public static void main(final String[] args) {
         SpringApplication.run(AdminApplication.class, args);
     }
-
 }
