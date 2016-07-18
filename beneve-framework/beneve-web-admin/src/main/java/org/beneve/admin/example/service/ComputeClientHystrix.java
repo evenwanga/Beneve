@@ -1,7 +1,7 @@
 /**
  * @Title: ComputeClientHystrix.java
  * @Package org.beneve.admin.example.service
- * @Description: TODO(用一句话描述该文件做什么)
+ * @Description: 测试 Feign 自带断路器功能组件
  * @author WangYiwen
  * @date 2016年7月18日 下午12:06:39
  */
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @ClassName: ComputeClientHystrix
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: 断路器触发后执行该方法
  * @author WangYiwen
  * @date 2016年7月18日 下午12:06:39
- * 
+ *
  */
 @Component
 public class ComputeClientHystrix implements ComputeClient {

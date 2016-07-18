@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  *
  * @ClassName: AdminApplication
- * @Description: 项目服务API启动入口
+ * @Description: 项目 API 服务提供子模块启动入口
  * @author WangYiwen
  * @date 2016年7月11日 上午10:35:26
  *
@@ -19,7 +19,7 @@ public class ServiceApplication {
     /**
      *
      * @Title: main
-     * @Description : TODO (这里用一句话描述这个方法的作用)
+     * @Description : 项目 API 服务提供子模块主程序
      * @param args 设定文件
      * @return void 返回类型
      *

@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 /**
  *
  * @ClassName: AdminApplication
- * @Description: 后台管理项目启动入口
+ * @Description: 项目后台管理子模块启动入口
  * @author WangYiwen
  * @date 2016年7月11日 上午10:35:26
  *
@@ -21,7 +21,7 @@ public class AdminApplication {
     /**
      *
      * @Title: main
-     * @Description : TODO (这里用一句话描述这个方法的作用)
+     * @Description : 项目启动入口
      * @param args 设定文件
      * @return void 返回类型
      *

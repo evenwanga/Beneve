@@ -1,7 +1,7 @@
 /**
  * @Title: ComputeClient.java
  * @Package org.beneve.admin.example.service
- * @Description: TODO(用一句话描述该文件做什么)
+ * @Description: 测试 Spring cloud 的 Web Service 组件 Feign
  * @author WangYiwen
  * @date 2016年7月18日 上午11:46:26
  */
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @ClassName: ComputeClient
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: 调用 Web Service 服务 （ beneve-web-service ）方法，测试断路器是否正常
  * @author WangYiwen
  * @date 2016年7月18日 上午11:46:26
  *

@@ -1,7 +1,7 @@
 /**
  * @Title: ConsumerController.java
  * @Package org.beneve.admin.example
- * @Description: TODO(用一句话描述该文件做什么)
+ * @Description: 测试 RestController 方法
  * @author WangYiwen
  * @date 2016年7月18日 上午11:32:18
  */
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName: ConsumerController
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: 测试 RestController 方法
  * @author WangYiwen
  * @date 2016年7月18日 上午11:32:18
  *
@@ -31,11 +31,33 @@ public class ConsumerController {
     @Value("${from}")
     private String from;
 
+    /**
+     *
+     * @Title: add
+     * @Description : 调用 service 服务器方法 （Web Service 服务器 Feign 方法测试）
+     * @return 设定文件
+     * @return Integer 返回类型
+     *
+     * @author : WangYiwen
+     * @mail : 514094893@qq.com
+     * @Date : 2016年7月18日
+     */
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add() {
         return this.computeClient.add(10, 20);
     }
 
+    /**
+     *
+     * @Title: from
+     * @Description : 测试统一配置文件参数获取方法
+     * @return 设定文件
+     * @return String 返回类型
+     *
+     * @author : WangYiwen
+     * @mail : 514094893@qq.com
+     * @Date : 2016年7月18日
+     */
     @RequestMapping("/from")
     public String from() {
 

@@ -1,7 +1,7 @@
 /**
  * @Title: ComputeController.java
  * @Package org.beneve.admin.example
- * @Description: TODO(用一句话描述该文件做什么)
+ * @Description: API测试模块
  * @author WangYiwen
  * @date 2016年7月18日 上午10:53:18
  */
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName: ComputeController
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: API测试方法
  * @author WangYiwen
  * @date 2016年7月18日 上午10:53:18
  *
